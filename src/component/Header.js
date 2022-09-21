@@ -1,17 +1,22 @@
-return (
-    <div className="container">
-        <h1><img src="./img/logo.png" alt="" /></h1>
-        <nav>
-            <ul>
-                <li className="Head_Nav">
-                    앱다운로드
-                </li>
-                <li>MD's추천픽</li>
-                <li>위스키</li>
-                <li>데낄라</li>
-            </ul>
-        </nav>
-    </div>
-)
 
-export default Headers;
+const Header = () => {
+    return (
+        <header className="header">
+            <div className="container">
+                <h1><img src="./img/logo.png" alt="dailyshot-logo" className="logo" /></h1>
+                <nav>
+                    <ul>
+                        <a href="">
+                            <li className="Head_Nav"> 앱다운로드 </li>
+                        </a>
+                       <a href=""><li>MD's추천픽</li></a> 
+                       <a href=""><li>위스키</li></a> 
+                       <a href=""><li>데낄라</li></a> 
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    )
+}
+
+export default Header;

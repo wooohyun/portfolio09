@@ -1,10 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
-
+import Header from "./component/Header";
 function App() {
   return (
-<Wrap>
-  
-</Wrap>
+    <Header />
   );
 }
 

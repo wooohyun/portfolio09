@@ -1,31 +1,43 @@
-.Header {
+.header {
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
+    padding-top: 20px;
 }
 
-.Header .container {
+.header .container {
     display: flex;
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
 }
 
-.Header ul {
+.header .logo{
+    height: 24px;
+}
+
+.header ul {
     display: flex;
     flex: 1;
     gap: 30px;
 }
 
-.Header ul .Head_Nav {
+.header ul .Head_Nav {
     border-color: rgb(255, 149, 0);
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     color: rgb(255, 149, 0);
     height: 40px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
 }
 
 
-.Header ul .Head_Nav:hover {
+.header ul .Head_Nav:hover {
     color: rgb(255, 255, 255);
     background: rgb(255, 149, 0);
+ padding-top: 10px;
+ margin-top: -10px;
+ text-align: center;
 }
