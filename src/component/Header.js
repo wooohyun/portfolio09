@@ -11,7 +11,9 @@ const Header = () => {
                         </a>
                        <a href=""><li>MD's추천픽</li></a> 
                        <a href=""><li>위스키</li></a> 
-                       <a href=""><li>데낄라</li></a> 
+                       <a href=""><li>전통주</li></a> 
+                       <a href=""><li>맥주</li></a> 
+                       <a href=""><li>와인</li></a> 
                     </ul>
                 </nav>
             </div>
