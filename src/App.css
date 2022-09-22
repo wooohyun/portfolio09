@@ -4,6 +4,7 @@
     top: 0;
     left: 0;
     padding-top: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 .header .container {
@@ -35,15 +36,16 @@
 
 
 .header ul .Head_Nav:hover {
+    transform: translate(0%, -24%);
+    height: 40px;
     color: rgb(255, 255, 255);
     background: rgb(255, 149, 0);
     padding-top: 10px;
-    margin-top: -10px;
     text-align: center;
 }
 
 .mainvisual .container {
-    padding: 200px 0;
+    padding: 150px 0 130px 0;
     width: 1200px;
     margin: 0 auto;
 }
@@ -80,3 +82,9 @@
     font-weight: 400;
     line-height: 1.45em;
 }
+
+
+/* 슬릭 아이템 간격 없는게 더이쁜듯 */
+/* .mainslide .slick-slide{
+    margin: 0 10px;
+} */

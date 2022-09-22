@@ -6,37 +6,76 @@ import Slider from "react-slick";
 const MainSlide = () => {
 
     const settings = {
-        dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover :false,
+        dots: false,
         infinite: true,
-        speed: 500,
-        slidesToShow: 1,
+        speed: 1000,
+        slidesToShow: 5,
         slidesToScroll: 1
+        
     };
 
     return (
-        <div>
-            <h2> Single Item</h2>
+        <mainslide className="mainslide">
+  <div>
             <Slider {...settings}>
                 <div>
-                    <h3>0000000000000</h3>
+                   <figure>
+                    <img src="./img/slide01.jpg" alt="" />
+                   </figure>
                 </div>
                 <div>
-                    <h3>2</h3>
+                   <figure>
+                    <img src="./img/slide02.jpg" alt="" />
+                   </figure>
                 </div>
                 <div>
-                    <h3>3</h3>
+                   <figure>
+                    <img src="./img/slide03.jpg" alt="" />
+                   </figure>
                 </div>
                 <div>
-                    <h3>4</h3>
+                   <figure>
+                    <img src="./img/slide04.jpg" alt="" />
+                   </figure>
                 </div>
                 <div>
-                    <h3>5</h3>
+                   <figure>
+                    <img src="./img/slide05.jpg" alt="" />
+                   </figure>
                 </div>
                 <div>
-                    <h3>6</h3>
+                   <figure>
+                    <img src="./img/slide06.jpg" alt="" />
+                   </figure>
                 </div>
+                <div>
+                   <figure>
+                    <img src="./img/slide07.jpg" alt="" />
+                   </figure>
+                </div>
+                <div>
+                   <figure>
+                    <img src="./img/slide08.jpg" alt="" />
+                   </figure>
+                </div>
+                <div>
+                   <figure>
+                    <img src="./img/slide09.jpg" alt="" />
+                   </figure>
+                </div>
+                <div>
+                   <figure>
+                    <img src="./img/slide10.jpg" alt="" />
+                   </figure>
+                </div>
+              
             </Slider>
         </div>
+        </mainslide>
+      
     );
 }
 
