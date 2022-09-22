@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-.header .logo{
+.header .logo {
     height: 24px;
 }
 
@@ -37,7 +37,46 @@
 .header ul .Head_Nav:hover {
     color: rgb(255, 255, 255);
     background: rgb(255, 149, 0);
- padding-top: 10px;
- margin-top: -10px;
- text-align: center;
+    padding-top: 10px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.mainvisual .container {
+    padding: 200px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainvisual span {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.45em;
+}
+
+.mainvisual h2 {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.45em;
+    margin-bottom: 50px;
+}
+
+.mainvisual .download {
+    display: flex;
+    gap: 50px;
+}
+
+.mainvisual .download button {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.mainvisual p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.45em;
 }

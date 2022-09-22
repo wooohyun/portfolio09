@@ -1,10 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
+import Wrapper from './component/Wrapper';
 import Header from "./component/Header";
-function App() {
+import MainVisual from "./component/MainVisual";
+import MainSlide from "./component/MainSlide";
+const App= () => {
   return (
-    <Header />
+    <Wrapper>
+    <Header/>
+    <MainVisual/>
+<MainSlide/>
+    </Wrapper>
   );
 }
 
