@@ -11,23 +11,23 @@ const MainService = () => {
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1
-     };
+    };
 
     return (
         <mainservice className="mainservice">
             <div className="container">
-            <Slider {...settings}>
-               <div>
-                  <figure>
-                     <img src="./img/slide01.jpg" alt="" />
-                  </figure>
-               </div>
-               <div>
-                  <figure>
-                     <img src="./img/slide02.jpg" alt="" />
-                  </figure>
-               </div>
-            </Slider>
+                <Slider {...settings}>
+                    <div>
+                        <figure>
+                            <img src="./img/slide01.jpg" alt="" />
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="./img/slide02.jpg" alt="" />
+                        </figure>
+                    </div>
+                </Slider>
             </div>
         </mainservice>
     )
