@@ -3,12 +3,16 @@ import Wrapper from './component/Wrapper';
 import Header from "./component/Header";
 import MainVisual from "./component/MainVisual";
 import MainSlide from "./component/MainSlide";
-const App= () => {
+import MainError from "./component/MainError";
+import Footer from "./component/Footer";
+const App = () => {
   return (
     <Wrapper>
-    <Header/>
-    <MainVisual/>
-<MainSlide/>
+      <Header />
+      <MainVisual />
+      <MainSlide />
+      <MainError />
+      <Footer />
     </Wrapper>
   );
 }

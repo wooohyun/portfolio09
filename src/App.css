@@ -1,10 +1,17 @@
+.Wrapper {
+    width: 1900px;
+    overflow: hidden;
+}
+
 .header {
     position: fixed;
+    background: #fff;
     width: 100%;
     top: 0;
     left: 0;
     padding-top: 20px;
     border-bottom: 1px solid #ddd;
+    z-index: 999;
 }
 
 .header .container {
@@ -88,3 +95,61 @@
 /* .mainslide .slick-slide{
     margin: 0 10px;
 } */
+
+footer {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .container .logo {
+    margin: 0 0 30px 0;
+}
+
+
+footer .container .logo_p {
+    margin: 0 0 50px 0;
+    font-weight: 300;
+}
+
+footer .container .logo_p p {
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+footer .container .logo_p span {
+    font-weight: 700;
+}
+
+footer .container .logo_p .warning {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+footer .container ul li {
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 0 50px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+footer .container .sns {
+    margin: 0 0 30px 0;
+}
+
+footer .container i {
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+footer .container .copyright {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+}

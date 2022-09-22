@@ -1,8 +1,8 @@
 const MainVisual = () => {
     return (
-        <MainVisual className="MainVisual">
+        <mainvisual className="mainvisual">
 
-        </MainVisual>
+        </mainvisual>
     )
 }
 
