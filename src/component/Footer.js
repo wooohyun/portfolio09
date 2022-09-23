@@ -4,7 +4,7 @@ const Footer = () => {
             <footer>
                 <div className="container">
                     <div className="logo">
-                        <a href="">
+                        <a href="/">
                             <img src="./img/logo.png" alt="" />
                         </a>
                     </div>
@@ -21,9 +21,9 @@ const Footer = () => {
                         <li><a href="#none">개인정보 취급방침</a></li>
                     </ul>
                     <div className="sns">
-                        <a href="https://www.instagram.com/dailyshot.co" target="_blank"><i className="xi-instagram"></i></a>
-                        <a href="https://www.facebook.com/dailyshot.co" target="_blank"><i className="xi-facebook"></i></a>
-                        <a href="https://blog.naver.com/daily-shot" target="_blank"><i className="xi-naver"></i></a>
+                        <a href="https://www.instagram.com/dailyshot.co" target="blank"><i className="xi-instagram"></i></a>
+                        <a href="https://www.facebook.com/dailyshot.co" target="blank"><i className="xi-facebook"></i></a>
+                        <a href="https://blog.naver.com/daily-shot" target="blank"><i className="xi-naver"></i></a>
                     </div>
                     <div className="copyright">
                         <p>Copyright © dailyshot. All Rights Reserved.</p>

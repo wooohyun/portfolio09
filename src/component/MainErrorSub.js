@@ -1,6 +1,6 @@
 const MainError_Sub = () => {
     return (
-        <mainerror_sub className="mainerror_sub">
+        <mainerror_sub className="mainerrorsub">
             <div className="container">
                 <div className="inner">
                 <p>왜 어려울까</p>
