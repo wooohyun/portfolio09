@@ -180,6 +180,67 @@
     color: rgb(255, 149, 0);
 }
 
+.mainservice .container {
+    padding: 100px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainservice .wrap {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.mainservice .service{
+    text-align: center;
+}
+
+.mainservice .service h3{
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 1.45em;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+.mainservice .service p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.45em;
+    margin-bottom: 100px; 
+}
+
+.mainservice .service .border{
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.mainservice .service .top{
+    margin-bottom: 30px;
+}
+
+.mainservice .service .border p{
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1.45em; 
+    margin-bottom: 0px; 
+   margin: 0 auto;
+}
+
+
+.mainservice .mokup {
+    display: flex;
+    gap: 20px;
+}
+
+.mainservice .slick-dots{
+    bottom: -70px;
+}
 
 footer {
     background: #f9f9f9;
