@@ -96,6 +96,10 @@
     margin: 0 10px;
 } */
 
+.mainslide .slick-slide {
+    margin-bottom: -10px;
+}
+
 .mainerror .back {
     background: #f5f5f5;
 }
@@ -104,7 +108,7 @@
     width: 1200px;
     padding: 100px 0;
     display: flex;
-    margin: -10px auto 0 auto;
+    margin: 0 auto;
     text-align: center;
 }
 
